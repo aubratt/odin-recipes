@@ -1,0 +1,47 @@
+body {
+  background-color: #1f1f1f;
+  margin: 0;
+}
+
+.navbar {
+  background-color: goldenrod;
+  padding: 16px;
+  text-align: center;
+}
+
+.home-link,
+h1 {
+  font-family: Luminari, fantasy;
+}
+
+.home-link {
+  color: #1f1f1f;
+  font-size: 32px;
+  margin: auto;
+  text-decoration: none;
+}
+
+h1 {
+  color: goldenrod;
+  text-align: center;
+}
+
+.recipes-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.listed-recipe {
+  margin-bottom: 16px;
+}
+
+.listed-recipe-link {
+  font-size: 20px;
+  color: lightgray;
+  text-decoration: none;
+}
+
+.listed-recipe-link:hover {
+  color: lightgoldenrodyellow;
+}
