@@ -1,7 +1,10 @@
+/* Eliminate default margin on every page */
 body {
   background-color: #1f1f1f;
   margin: 0;
 }
+
+/* "Odin Recipes" Navbar + Page Titles */
 
 .navbar {
   background-color: goldenrod;
@@ -23,8 +26,12 @@ h1 {
 
 h1 {
   color: goldenrod;
+  margin-inline-start: .67em;
+  margin-inline-end: .67em;
   text-align: center;
 }
+
+/* Homepage Recipes List */
 
 .recipes-list {
   list-style-type: none;
@@ -44,4 +51,12 @@ h1 {
 
 .listed-recipe-link:hover {
   color: lightgoldenrodyellow;
+}
+
+/*  */
+
+img {
+    border: 5px solid goldenrod;
+    display: block;
+    margin: auto;
 }
