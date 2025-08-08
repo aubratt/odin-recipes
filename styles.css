@@ -53,10 +53,45 @@ h1 {
   color: lightgoldenrodyellow;
 }
 
-/*  */
+/* Format and style recipe pages */
 
 img {
     border: 5px solid goldenrod;
     display: block;
     margin: auto;
+}
+
+h2 {
+    color: goldenrod;
+    text-align: center;
+}
+
+p {
+    color: lightgray;
+    margin: auto;
+    text-align: center;
+    width: 20rem;
+}
+
+.i-s-lists {
+    color: lightgray;  
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.i-s-lists > li {
+    margin-bottom: 8px;
+}
+
+.steps {
+    margin: 0 auto 32px;
+    width: 20rem;
+}
+
+span,
+strong {
+    color: lightgoldenrodyellow;
+    /* font-size: 18px; */
+    font-weight: bold;
 }
